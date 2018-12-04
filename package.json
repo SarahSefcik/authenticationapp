@@ -1,0 +1,36 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Simple authentication system",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SarahSefcik/authenticationapp.git"
+  },
+  "author": "Sarah Sefcik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahSefcik/authenticationapp/issues"
+  },
+  "homepage": "https://github.com/SarahSefcik/authenticationapp#readme",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parcer": "*",
+    "connect-flash": "*",
+    "cookie-parcer": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*"
+  }
+}
+
