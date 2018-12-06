@@ -1,31 +1,32 @@
 {
-  "name": "node-handlebars-boilerplate",
+  "name": "passportauthentication",
   "version": "1.0.0",
-  "description": "Simple authentication system",
-  "main": "app.js",
+  "description": "Using Passport with Sequelize and MySQL",
+  "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SarahSefcik/authenticationapp.git"
+  },
+  "author": "Sarah Sefcik",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SarahSefcik/authenticationapp/issues"
   },
   "homepage": "https://github.com/SarahSefcik/authenticationapp#readme",
   "dependencies": {
-    "bcryptjs": "*",
-    "body-parcer": "*",
-    "connect-flash": "*",
-    "cookie-parcer": "^1.4.1",
-    "express": "*",
-    "express-handlebars": "*",
-    "express-messages": "*",
-    "express-session": "*",
-    "express-validator": "*",
-    "mongodb": "*",
-    "mongoose": "*",
-    "passport": "*",
-    "passport-http": "*",
-    "passport-local": "*"
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.41.2"
   }
 }
-
