@@ -1,16 +1,11 @@
 {
-  "name": "authentication",
+  "name": "node-handlebars-boilerplate",
   "version": "1.0.0",
   "description": "Simple authentication system",
   "main": "app.js",
   "scripts": {
     "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/SarahSefcik/authenticationapp.git"
-  },
-  "author": "Sarah Sefcik",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/SarahSefcik/authenticationapp/issues"
