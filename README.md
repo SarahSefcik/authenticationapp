@@ -16,4 +16,8 @@ Requirements<br>
 Nice to Have, but not Required<br>
   -Use handlebars<br>
   -Incorporate Authentication<br>
+<<<<<<< HEAD
   -Use an existing public dataset to power database<br>
+=======
+  -Use an existing public dataset to power database<br>
+>>>>>>> 320ca545e793c22df9048ed73c49e9046f8898c8
