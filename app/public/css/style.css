@@ -99,3 +99,7 @@ footer p {
     color: black;
     font-weight: bold;
 }
+
+.card .card-body {
+    background-color: #062743;
+}
