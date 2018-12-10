@@ -6,6 +6,10 @@ var bodyParser = require('body-parser')
 var env = require('dotenv').load()
 var exphbs = require('express-handlebars')
 
+// Middleware
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+app.use(express.static("./app/public"));
 
 
 //For BodyParser
@@ -36,7 +40,7 @@ app.set('view engine', '.hbs');
 
 app.get('/', function (req, res) {
 
-  res.send('Welcome to Passport with Sequelize');
+  res.render("index");
 
 });
 
